@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HanPix</title>
-<!-- Search Console 확인 태그 자리 -->
+<title>정석야구</title>
+<meta name="description" content="다른 감독님들과 겨루는 야구 구단 경영 시뮬레이션">
+<link rel="icon" href="icon.png">
 <style>
   :root {
     --bg: #ffffff;
@@ -32,23 +33,27 @@
     line-height: 1.7;
   }
   main { max-width: 34rem; margin: 0 auto; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
-  h2 { font-size: 1.1rem; margin: 40px 0 4px; }
-  p { margin: 0 0 8px; color: var(--dim); }
-  ul { list-style: none; padding: 0; margin: 16px 0 0; border-top: 1px solid var(--line); }
+  header { display: flex; align-items: center; gap: 14px; }
+  header img { width: 60px; height: 60px; border-radius: 12px; image-rendering: pixelated; }
+  h1 { font-size: 1.7rem; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: 1rem; margin: 40px 0 0; color: var(--dim); font-weight: 600; }
+  p { margin: 4px 0 0; color: var(--dim); }
+  ul { list-style: none; padding: 0; margin: 12px 0 0; border-top: 1px solid var(--line); }
   li { border-bottom: 1px solid var(--line); }
   a { color: var(--link); text-decoration: none; display: block; padding: 12px 2px; }
   a:hover { text-decoration: underline; }
-  footer { margin-top: 48px; color: var(--dim); font-size: 0.9rem; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--dim); font-size: 0.9rem; }
 </style>
 </head>
 <body>
 <main>
-  <h1>HanPix</h1>
-  <p>모바일 게임 제작</p>
-
-  <h2>정석야구</h2>
+  <header>
+    <img src="icon.png" alt="정석야구" width="60" height="60">
+    <h1>정석야구</h1>
+  </header>
   <p>다른 감독님들과 겨루는 야구 구단 경영 시뮬레이션</p>
+
+  <h2>약관 및 정책</h2>
   <ul>
     <li><a href="/baseball-legal/terms.html">이용약관</a></li>
     <li><a href="/baseball-legal/privacy.html">개인정보처리방침</a></li>
@@ -56,7 +61,10 @@
     <li><a href="/baseball-legal/delete.html">계정 삭제 요청</a></li>
   </ul>
 
-  <footer>문의 hanpix.support@gmail.com</footer>
+  <footer>
+    제작 HanPix<br>
+    문의 hanpix.support@gmail.com
+  </footer>
 </main>
 </body>
 </html>
